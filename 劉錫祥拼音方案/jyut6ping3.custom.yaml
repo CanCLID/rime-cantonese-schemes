@@ -7,9 +7,9 @@
 patch:
   speller/algebra@a/+:
     - derive/^c/ch/               # 叉 caa  -> cha
-    - derive/^jy/y/               # 粵 jyut -> yut
     - derive/^j/y/                # 用 jung -> yung
     - derive/^z/j/                # 抓 zaa  -> ja
+    - derive/o$/oh/               # 科 fo   -> foh
     - derive/u([^$])/oo$1/        # 歡 fun  -> foon
     - derive/([^aeiouy])u$/$1oo/  # 虎 fu   -> foo
     - derive/oe$/euh/             # 靴 hoe  -> heuh
