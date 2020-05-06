@@ -9,7 +9,7 @@
  :-------------: | ------------- | -------- | ---- | -----
  [**粵拼**](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | seoi | zoeng | fun| 現代學術資料，社羣粵語資料，字典
 [**耶魯拼音**](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3)|  seui | jeung | fun | 上世紀學術資料，Gboard等輸入法
-[**教院式拼音**](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) soey | zoeng | fun |香港教育局教材
+[**教院式拼音**](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | soey | zoeng | fun |香港教育局教材
 [**劉錫祥拼音**](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| sui| jeung| foon| 外國嘅粵語轉寫，「網上廣東話輸入法」，面向外國人嘅粵語教材
 
 ## 安裝方法
