@@ -5,12 +5,12 @@
 * 呢度嘅程式碼係都以補丁方式實現，唔會影響其他輸入法檔案。
 
 ## 我用緊邊種拼音系統？
- 你會將「出」字拼成... | 拼音系統  | 方案詳情 | 常見於（純粹主觀感覺）
- :-------------: | ------------- | --------- | --------
- ceot       | **粵拼** (/œː/作`oe`，/ɵ/作`eo`)| [呢度](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | 現代學術資料，社羣粵語資料，字典
- cheut      | **耶魯拼音** (/œː/、/ɵ/ 一律作`eu`)| [呢度](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3) | 上世紀學術資料，Gboard等輸入法
- coet       | **教院式拼音** (/œː/、/ɵ/ 一律作`oe`)| [呢度](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | 香港教育局教材
- chut       | **劉錫祥式拼音** (/œː/作`eu`，/ɵ/作`u`) | [呢度](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3) | 外國嘅粵語轉寫，面向外國人嘅粵語教材
+ 你會將「出」字拼成... | 拼音系統  | 常見於（純粹主觀感覺）
+ :-------------: | ------------- | --------
+ ceot       | [**粵拼**](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) (/œː/作`oe`，/ɵ/作`eo`)| 現代學術資料，社羣粵語資料，字典
+ cheut      | [**耶魯拼音**](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3) (/œː/、/ɵ/ 一律作`eu`)| 上世紀學術資料，Gboard等輸入法
+ coet       | [**教院式拼音**](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) (/œː/、/ɵ/ 一律作`oe`)|香港教育局教材
+ chut       | [**劉錫祥式拼音**](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)  (/œː/作`eu`，/ɵ/作`u`) |  外國嘅粵語轉寫，「網上廣東話輸入法」，面向外國人嘅粵語教材
 
 ## 安裝方法
 1. [下載呢個程式庫](https://github.com/tanxpyox/rime-cantonese-schemes/archive/master.zip)，然後解壓縮。
