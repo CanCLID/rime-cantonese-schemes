@@ -3,16 +3,4 @@
 * 呢個補丁將jyut6ping3.dict.yaml嘅詞句轉換成耶魯拼音，方便用開GBoard或者其他廣東話輸入法嘅用家使用。
 
 ## 安裝方法
-* Linux/macOS（未用過東風破嘅人用）運行：
-```sh
-curl -fsSL https://git.io/rime-install | bash -s -- cantonese tanxpyox/rime-cantonese-yale
-```
-* Linux/macOS（有用過東風破嘅人用）運行：
-```sh
-cd ~/plum
-bash rime-install cantonese tanxpyox/rime-cantonese-yale
-```
-* Windows
-  * 開啓【輸入法設定】-> 撳【獲取更多輸入法...】
-  * 輸入`tanxpyox/rime-cantonese-yale`, <kbd> Enter 
-  * 重新【部署】，完成
+* 下載呢個程式庫入面嘅jyut6ping3.custom.yaml入去[「用戶資料夾」](https://github.com/rime/home/wiki/UserData)入面，然後重新部署。
