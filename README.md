@@ -1,8 +1,8 @@
 # 中州韻粵語拼音輸入法耶魯拼音補丁
+* 依賴於：[`rime/rime-cantonese`](github.com/rime/rime-cantonese)
+* 呢個補丁將jyut6ping3.dict.yaml嘅詞句轉換成耶魯拼音，方便用開GBoard或者其他廣東話輸入法嘅用家使用。
 
-呢個補丁將jyut6ping3.dict.yaml嘅詞句轉換成耶魯拼音，方便用開GBoard或者其他廣東話輸入法嘅用家使用。
-
-## 用法
+## 安裝方法
 * Linux/macOS（未用過東風破嘅人用）運行：
 ```sh
 curl -fsSL https://git.io/rime-install | bash -s -- cantonese tanxpyox/rime-cantonese-yale
