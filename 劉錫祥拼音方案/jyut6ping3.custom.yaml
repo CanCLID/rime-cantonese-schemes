@@ -9,9 +9,11 @@ patch:
     - derive/^c/ch/               # 叉 caa  -> cha
     - derive/^jy/y/               # 粵 jyut -> yut
     - derive/^j/y/                # 用 jung -> yung
-    - derive/^z/j/                # 抓 zaa   -> ja
+    - derive/^z/j/                # 抓 zaa  -> ja
+    - derive/u([^$])/oo$1/        # 歡 fun  -> foon
+    - derive/([^aeiouy])u$/$1oo/  # 虎 fu   -> foo
     - derive/oe$/euh/             # 靴 hoe  -> heuh
     - derive/oe/eu/               # 想 soeng-> seung
     - derive/eo/u/                # 出 ceot -> chut
     - derive/yu/ue/               # 孫 syun -> suen
-    - derive/aa$/a/               # 煆 haa   -> ha
+    - derive/aa$/a/               # 煆 haa  -> ha
