@@ -14,5 +14,5 @@ bash rime-install cantonese tanxpyox/rime-cantonese-yale
 ```
 * Windows
   * 開啓【輸入法設定】-> 撳【獲取更多輸入法...】
-  * 輸入`tanxpyox/rime-cantonese-yale`
+  * 輸入`tanxpyox/rime-cantonese-yale`, <kbd> Enter 
   * 重新【部署】，完成
