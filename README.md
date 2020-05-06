@@ -14,15 +14,13 @@
 [**劉錫祥拼音**](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuen | fa| 外國嘅粵語轉寫，「網上廣東話輸入法」，面向外國人嘅粵語教材
 [**黃錫凌拼音**](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuen|faa|《粵音韻彙》
 
-## 安裝方法
-1. [下載呢個程式庫](https://github.com/tanxpyox/rime-cantonese-schemes/archive/master.zip)，然後解壓縮。
-2. 揀啱你用開嘅拼音方案，將入面個`jyut6ping3.custom.yaml`放入去[RIME「用戶資料夾」](https://github.com/rime/home/wiki/UserData)度。
-3. 重新部署。
+## 點解我要學粵拼？
 
-## 解安裝方法
-1. 入去[RIME「用戶資料夾」](https://github.com/rime/home/wiki/UserData)度。
-2. 刪除`jyut6ping3.custom.yaml`。
-3. 重新部署。
+(待擴充)
+
+如果睇完以上嘅簡介，閣下已經決定咗要學習「粵拼」，但係覺得無從入手，噉喺[呢度](github.com/tanxpyox/rime-cantonese-schema/INSTRUCTIONS.md#安裝方法)我提供咗幾個過渡方案，俾閣下用住熟悉嘅拼音嚟使用RIME。選字表上面會顯示正確嘅粵拼，方便大家對照讀音。
+
+當你對自己嘅粵拼有信心嘅時候，就可以參考[呢度](github.com/tanxpyox/rime-cantonese-schema/INSTRUCTIONS.md#解安裝方法)嘅方法，將補丁移除，體驗中州韻輸入法嘅完整功能。
 
 ## 授權條款
 GNU較寬鬆公共授權條款（第三版）。詳細條款請參閱[LICENSE](https://github.com/tanxpyox/rime-cantonese-schemes/blob/master/LICENSE)。
