@@ -1,0 +1,17 @@
+# Sidney Lau Romanisation Patch
+# Author:
+#    - 亶父 <tanxpyox@gmail.com>
+# 只供從劉式拼音過渡至粵拼人士使用
+# 長遠請考慮使用粵拼
+
+patch:
+  speller/algebra@a/+:
+    - derive/^c/ch/               # 叉 caa  -> cha
+    - derive/^jy/y/               # 粵 jyut -> yut
+    - derive/^j/y/                # 用 jung -> yung
+    - derive/^z/j/                # 抓 zaa   -> ja
+    - derive/oe$/euh/             # 靴 hoe  -> heuh
+    - derive/oe/eu/               # 想 soeng-> seung
+    - derive/eo/u/                # 出 ceot -> chut
+    - derive/yu/ue/               # 孫 syun -> suen
+    - derive/aa$/a/               # 煆 haa   -> ha

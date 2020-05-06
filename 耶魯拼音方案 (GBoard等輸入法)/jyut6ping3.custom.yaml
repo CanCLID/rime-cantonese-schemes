@@ -1,0 +1,18 @@
+# Yale Romanisation Patch
+# Author:
+#    - 幸延 <a0726h77@gmail.com> （本補丁由rime/rime-jyutping/yale.schema.yaml 改編而來）
+#    - 亶父 <tanxpyox@gmail.com>
+# 只供從耶魯拼音過渡至粵拼人士使用
+# 長遠請考慮使用粵拼
+
+patch:
+  speller/algebra@0/+:
+    - derive/([aeiou])(ng?|m|i|u|p|t|k)?[456]/$1h$2/         # 粵 jyut  -> yuht (陽聲）
+  speller/algebra/+:
+    - derive/eo(t|n|i)/eu$1/                                 # 信 seon  -> seun
+    - derive/oe/eu/                                          # 上 soeng -> seung
+    - derive/^jy/y/                                          # 粵 jyut  -> yut
+    - derive/^j/y/                                           # 用 jung  -> yung
+    - derive/^z/j/                                           # 抓 zaa   -> ja
+    - derive/^c/ch/                                          # 叉 caa   -> cha
+    - derive/aa$/a/                                          # 煆 haa   -> ha
