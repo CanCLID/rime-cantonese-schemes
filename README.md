@@ -12,6 +12,7 @@
 [**耶魯拼音**](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3)|  cheui | jeung | yun | fa| 上世紀學術資料，Gboard等輸入法
 [**教院式拼音**](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | tsoey | dzoeng | jyn | faa| 香港教育局教材
 [**劉錫祥拼音**](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuen | fa| 外國嘅粵語轉寫，「網上廣東話輸入法」，面向外國人嘅粵語教材
+[**黃錫凌拼音**](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuen|faa|《粵音韻彙》
 
 ## 安裝方法
 1. [下載呢個程式庫](https://github.com/tanxpyox/rime-cantonese-schemes/archive/master.zip)，然後解壓縮。
