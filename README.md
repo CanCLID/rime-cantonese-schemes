@@ -6,15 +6,15 @@
 * 呢度嘅程式碼係都以補丁方式實現，唔會影響其他輸入法檔案。
 
 ## 我用緊邊種拼音系統？
-拼音系統  | 「翠」| 「獎」 | 「完」 | 「花」 | 常見於（純粹主觀感覺）
- :-------------: | :-------------: | :--------: | :---: |:----: | -----
+|拼音系統  | 「翠」| 「獎」 | 「完」 | 「花」 | 常見於（純粹主觀感覺）|
+ |:-------------: | :-------------: | :--------: | :---: |:----: | -----
  [國際音標](https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E9%9F%B3%E6%A8%99) | t͡sʰɵy | t͡sœːŋ | jyːn | faː | 語言學研究
- [**粵拼**](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | **ceoi** | **zoeng** | **jyun**| **faa** |**現代學術資料，社羣粵語資料，字典**
-[耶魯拼音](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3)|  cheui | jeung | yun | fa| 上世紀學術資料，Gboard等輸入法
-[教院拼音](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | tsoey | dzoeng | jyn | faa| 香港教育局教材
-[劉錫祥方案](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuen | fa| 外國，「網上廣東話輸入法」，面向外國人嘅粵語教材
-[黃錫凌方案](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuen|faa|《粵音韻彙》
-[饒秉才方案](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E8%AF%9D%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)|cêu|zêng|yun|fa|大陸部分著作
+ [**粵拼**](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | **ceoi** | **zoeng** | **jyun**| **faa** |**現代學術資料，社羣粵語資料，字典**|
+|[耶魯拼音](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3)|  cheui | jeung | yun | fa| 上世紀學術資料，Gboard等輸入法|
+|[教院拼音](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | tsoey | dzoeng | jyn | faa| 香港教育局教材|
+|[劉錫祥方案](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuen | fa| 外國，「網上廣東話輸入法」，面向外國人嘅粵語教材|
+|[黃錫凌方案](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuen|faa|《粵音韻彙》|
+|[饒秉才方案](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E8%AF%9D%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)|cêu|zêng|yun|fa|大陸部分著作|
 
 ## 點解我要學粵拼？
 
@@ -33,7 +33,7 @@
 呢一個原則仲有另一層意思，就係一個符號具體表達嘅發音，唔應該依賴佢嘅環境（即係旁邊嘅符號）。咩意思呢？我哋以耶魯粵語拼音爲例。耶魯拼音入邊，字母 a 既可以表示長 a，又可以表示短 a。下邊嘅表格表示咗耶魯拼音對三隻字「花」「翻」「分」嘅拼法。我哋可以睇到佢喺開音節（冇鼻音或者入聲韻尾）個陣 a 代表 /a/，閉音節（有鼻音或者入聲韻尾）個陣代表 /ɐ/，呢個就係「一個符號 a 代表 /a/ 同 /ɐ/兩個音位」。同樣嘅，「花」同「翻」嘅韻母係一樣嘅，但係佢一個拼成 fa 一個拼成 faan，即係「一個 /a/ 音位用 a 同 aa 兩個符號嚟表示」。
 
 **表一：耶魯拼音嘅/aː/同埋/ɐ/**
-| 花 /aː/ | 翻 /aː/ | 分 /ɐ/ |
+| 花 /aː/| 翻 /aː/| 分 /ɐ/ |
 | ------ | ------ | ------ |
 | fa     | faan   | fan    |
 
@@ -78,8 +78,8 @@
 
 **表二：耶魯拼音嘅/ɵi/，/ɛːu/，/œt/**
 |          | 睡 /sɵi˨/ | 掉 /tɛːu˨/ | 𠰲 /œt˨/ |
-| -------- | --------- | ---------- | -------- |
-| 耶魯拼音 | seuih     | 無法表示   | 無法表示 |
+| -------- | --------- | --------- | -------- |
+| 耶魯拼音  | seuih     | 無法表示   | 無法表示 |
 | 粵拼     | seoi6     | deu6       | oet6     |
 
 第四條用附加符號同埋 h 嚟表示聲調，例如「蛇」嘅發音拼成 sèh，呢點就可以講比較怪異嘞。佢既違背咗原則二，又違背咗原則一，因爲 h 已經用咗嚟表示聲母 /h/。好彩新版耶魯拼音都增加咗用數字嚟表示聲調嘅方案，噉樣對於信息處理係個好大嘅幫助。
