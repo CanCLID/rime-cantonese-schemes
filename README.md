@@ -7,15 +7,15 @@
 
 ## 我用緊邊種拼音系統？
 
-|拼音系統  | 「翠」| 「獎」 | 「完」 | 「花」 | 常見於（純粹主觀感覺）|
+|拼音系統  | 「翠」| 「獎」 | 「粵」 | 「花」 | 常見於（純粹主觀感覺）|
  |:-------------: | :-------------: | :--------: | :---: |:----: | -----
- 嚴式[國際音標](https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E9%9F%B3%E6%A8%99) | t͡sʰɵy | t͡sœːŋ | jyːn | faː | 語言學研究
- [**粵拼**](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | **ceoi** | **zoeng** | **jyun**| **faa** |**現代學術資料，社羣粵語資料，字典**|
-|[耶魯拼音](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3)|  cheui | jeung | yun | fa| 上世紀學術資料，Gboard等輸入法|
-|[教院拼音](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | tsoey | dzoeng | jyn | faa| 香港教育局教材|
-|[劉錫祥方案](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuen | fa| 外國，「網上廣東話輸入法」，面向外國人嘅粵語教材|
-|[黃錫凌方案](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuen|faa|《粵音韻彙》|
-|[饒秉才方案](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E8%AF%9D%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)|cêu|zêng|yun|fa|大陸部分著作|
+ 嚴式[國際音標](https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E9%9F%B3%E6%A8%99) | t͡sʰɵy | t͡sœːŋ | jyːt̚ | faː | 語言學研究
+ [**粵拼**](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | **ceoi** | **zoeng** | **jyut**| **faa** |**現代學術資料，社羣粵語資料，字典**|
+|[耶魯拼音](https://zh.wikipedia.org/wiki/%E8%80%B6%E9%AD%AF%E6%8B%BC%E9%9F%B3#%E7%B2%A4%E8%AF%AD%E8%80%B6%E9%B2%81%E6%8B%BC%E9%9F%B3)|  cheui | jeung | yut | fa| 上世紀學術資料，Gboard等輸入法|
+|[教院拼音](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | tsoey | dzoeng | jyt | faa| 香港教育局教材|
+|[劉錫祥方案](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuet | fa| 「網上廣東話輸入法」，面向外國人嘅粵語教材|
+|[黃錫凌方案](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuet|faa|《粵音韻彙》|
+|[饒秉才方案](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E8%AF%9D%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)|cêu|zêng|yud|fa|大陸部分著作|
 
 ## 點解我要學粵拼？
 
