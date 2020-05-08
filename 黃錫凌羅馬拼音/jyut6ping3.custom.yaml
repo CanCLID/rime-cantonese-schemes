@@ -9,7 +9,7 @@ patch:
     - derive/eo(t|n)$/eu$1/                        # 信 seon -> seun
     - derive/eoi$/eue/                             # 水 seoi -> seue
     - derive/oe/eu/                                # 上 soeng-> seung
-    - derive/yu/ue/                                # 粵 jyut -> yut
+    - derive/yu/ue/                                # 粵 jyut -> yuet
     - derive/^j/y/                                 # 用 jung -> yung
     - derive/^z/dz/                                # 抓 zaa  -> ja
     - derive/^c/ts/                                # 叉 caa  -> cha
