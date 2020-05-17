@@ -4,7 +4,7 @@
 #    - 亶父 <tanxpyox@gmail.com>
 # 只供從耶魯拼音過渡至粵拼人士使用
 yale:
-  speller/algebra/+:
+  speller/algebra/+/+:
 #   - derive/([aeiou])(ng?|m|i|u|p|t|k)?([456])/$1h$2/       # (開發中) 粵 jyut -> yuht （陽聲）
     - derive/eo(t|n|i)/eu$1/                                 # 信 seon  -> seun
     - derive/oe/eu/                                          # 上 soeng -> seung
@@ -19,7 +19,7 @@ yale:
 #    - 亶父 <tanxpyox@gmail.com>
 # 只供從教院式拼音過渡至粵拼人士使用
 edu:
-  speller/algebra/+:
+  speller/algebra/+/+:
     - derive/eoi$/oey/            # 水 seoi -> soey
     - derive/eo/oe/               # 出 ceot -> coet
     - derive/yu/y/                # 孫 syun -> syn
@@ -42,7 +42,7 @@ edu:
 # 只供從黃錫凌拼音過渡至粵拼人士使用
 # 長遠請考慮使用粵拼
 wong:
-  speller/algebra/+:
+  speller/algebra/+/+:
     - derive/eo(t|n)$/eu$1/                        # 信 seon -> seun
     - derive/eoi$/eue/                             # 水 seoi -> seue
     - derive/oe/eu/                                # 上 soeng-> seung
@@ -57,7 +57,7 @@ wong:
 # 只供從劉式拼音過渡至粵拼人士使用
 # 長遠請考慮使用粵拼
 lau:
-  speller/algebra/+:
+  speller/algebra/+/+:
     - derive/^c/ch/               # 叉 caa  -> cha
     - derive/^j/y/                # 用 jung -> yung
     - derive/^z/j/                # 抓 zaa  -> ja
