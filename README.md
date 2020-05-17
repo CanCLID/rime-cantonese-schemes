@@ -1,5 +1,5 @@
 # 中州韻粵語拼音輸入法分歧拼音系統補丁
-[![](https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-%E5%88%86%E6%AD%A7%E6%8B%BC%E9%9F%B3%E7%B3%BB%E7%B5%B1%E8%A3%9C%E4%B8%81-darkgreen?style=for-the-badge)](./INSTRUCTIONS.md)
+[![](https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-%E5%88%86%E6%AD%A7%E6%8B%BC%E9%9F%B3%E7%B3%BB%E7%B5%B1%E8%A3%9C%E4%B8%81-darkgreen?style=for-the-badge)](INSTRUCTIONS.md#安裝方法)
 
 * 依賴於：[`rime/rime-cantonese`](https://github.com/rime/rime-cantonese)
 * 呢個補丁將`jyut6ping3*.dict.yaml`嘅詞句轉換成其他主流拼音系統，方便唔係用開「粵拼」嘅人用RIME，同埋學習用「粵拼」轉寫。
