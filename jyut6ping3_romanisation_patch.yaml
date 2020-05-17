@@ -3,6 +3,7 @@
 #    - 幸延 <a0726h77@gmail.com> （本補丁由rime/rime-jyutping/yale.schema.yaml 改編而來）
 #    - 亶父 <tanxpyox@gmail.com>
 # 只供從耶魯拼音過渡至粵拼人士使用
+# 長遠請考慮使用粵拼
 yale:
   speller/algebra/@before 0:
     derive/([aeiou])(ng?|m|i|u|p|t|k)?([456])/$1h$2/         # 粵 jyut -> yuht （陽聲）
@@ -19,6 +20,7 @@ yale:
 # Author:
 #    - 亶父 <tanxpyox@gmail.com>
 # 只供從教院式拼音過渡至粵拼人士使用
+# 長遠請考慮使用粵拼
 edu:
   speller/algebra/+/+:
     - derive/eoi$/oey/            # 水 seoi -> soey
@@ -27,15 +29,15 @@ edu:
     - derive/^z/dz/               # 將 zoeng-> dzoeng
     - derive/^c/ts/               # 長 coeng-> tsoeng
   translator/preedit_format:
-      - xform/([aeioumng])vv/$1⁴/
-      - xform/([aeioumng])xx/$1⁵/
-      - xform/([aeioumng])qq/$1⁶/
-      - xform/([aeioumng])v/$1¹/
-      - xform/([aeioumng])x/$1²/
-      - xform/([aeioumng])q/$1³/
-      - xform/([ptk])v/$1⁷/       # 入聲作789，不作136
-      - xform/([ptk])q/$1⁸/
-      - xform/([ptk])qq/$1⁹/
+    - xform/([aeioumng])vv/$1⁴/
+    - xform/([aeioumng])xx/$1⁵/
+    - xform/([aeioumng])qq/$1⁶/
+    - xform/([aeioumng])v/$1¹/
+    - xform/([aeioumng])x/$1²/
+    - xform/([aeioumng])q/$1³/
+    - xform/([ptk])v/$1⁷/         # 入聲作789，不作136
+    - xform/([ptk])q/$1⁸/
+    - xform/([ptk])qq/$1⁹/
 
 # S.L. Wong Romanisation Patch
 # Author:
