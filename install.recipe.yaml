@@ -1,0 +1,20 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: install
+  args:
+    - schema=jyut6ping3
+    - scheme=yale
+  description: >-
+    Customize input schema to enable alternative romanisation schemes.
+    Supported schemes:
+      - Yale
+      - Cantonese Pinyin (by Rev. Yu Ping Chiu)
+      - SL Wong
+      - Sidney Lau scheme
+install_files: >-
+  # jyut6ping3_romanisation_patch.yaml
+patch_files:
+  ${schema:-jyut6ping3}.custom.yaml:
+    - patch/+:
+        __include: jyut6ping3_romanisation_patch:/${model:-yale}
