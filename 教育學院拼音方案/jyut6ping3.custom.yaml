@@ -12,12 +12,12 @@ patch:
     - derive/^z/dz/               # 將 zoeng-> dzoeng
     - derive/^c/ts/               # 長 coeng-> tsoeng
   translator/preedit_format:
-      - xform/([aeioumng])vv/$1⁴/
-      - xform/([aeioumng])xx/$1⁵/
-      - xform/([aeioumng])qq/$1⁶/
-      - xform/([aeioumng])v/$1¹/
-      - xform/([aeioumng])x/$1²/
-      - xform/([aeioumng])q/$1³/
-      - xform/([ptk])v/$1⁷/       # 入聲作789，不作136
-      - xform/([ptk])q/$1⁸/
-      - xform/([ptk])qq/$1⁹/
+    - xform/([aeioumng])vv/$1⁴/
+    - xform/([aeioumng])xx/$1⁵/
+    - xform/([aeioumng])qq/$1⁶/
+    - xform/([aeioumng])v/$1¹/
+    - xform/([aeioumng])x/$1²/
+    - xform/([aeioumng])q/$1³/
+    - xform/([ptk])v/$1⁷/       # 入聲作789，不作136
+    - xform/([ptk])q/$1⁸/
+    - xform/([ptk])qq/$1⁹/

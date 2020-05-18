@@ -6,7 +6,7 @@ recipe:
     - schema=jyut6ping3
     - scheme=yale
   description: >-
-    Customize input schema to enable alternative romanisation schemes.
+    Customise input schema to enable alternative romanisation schemes.
     Supported schemes:
       - Yale
       - Cantonese Pinyin (by Rev. Yu Ping Chiu)
@@ -17,4 +17,4 @@ install_files: >-
 patch_files:
   ${schema:-jyut6ping3}.custom.yaml:
     - patch/+:
-        __include: jyut6ping3_romanisation_patch:/${model:-yale}
+        __include: jyut6ping3_romanisation_patch:/${scheme:-yale}
