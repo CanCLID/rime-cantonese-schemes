@@ -1,3 +1,5 @@
+<div lang="yue-HK">
+ 
 # 中州韻粵語拼音輸入法分歧拼音系統補丁
 [![](https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-%E5%88%86%E6%AD%A7%E6%8B%BC%E9%9F%B3%E7%B3%BB%E7%B5%B1%E8%A3%9C%E4%B8%81-darkgreen?style=for-the-badge)](INSTRUCTIONS.md#安裝方法)
 
@@ -154,3 +156,5 @@
 
 ## 授權條款
 GNU較寬鬆公共授權條款（第三版）。詳細條款請參閱[LICENSE](LICENSE)。
+
+</div>
