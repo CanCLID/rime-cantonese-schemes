@@ -8,10 +8,10 @@ recipe:
   description: >-
     Customise input schema to enable alternative romanisation schemes.
     Supported schemes:
-      - Yale
-      - Cantonese Pinyin (by Rev. Yu Ping Chiu)
-      - SL Wong
-      - Sidney Lau scheme
+      - Yale ("yale")
+      - Cantonese Pinyin (by Rev. Yu Ping Chiu) ("edu")
+      - SL Wong ("wong")
+      - Sidney Lau ("lau")
 install_files: >-
    jyut6ping3_romanisation_patch.yaml
 patch_files:
