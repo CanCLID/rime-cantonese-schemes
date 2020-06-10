@@ -19,7 +19,7 @@
 |[教院拼音](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88) | tsoey | dzoeng | jyt | faa| 香港教育局教材|
 |[劉錫祥方案](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8C%AB%E7%A5%A5%E6%8B%BC%E9%9F%B3)| chui| jeung| yuet | fa| 「網上廣東話輸入法」，面向外國人嘅粵語教材|
 |[黃錫凌方案](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%8C%AB%E5%87%8C%E7%BE%85%E9%A6%AC%E6%8B%BC%E9%9F%B3)|tseue|dzeung|yuet|faa|《粵音韻彙》|
-|[饒秉才方案](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E8%AF%9D%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)* |cêu|zêng|yud|fa|《廣州話正音字典》等大陸著作|
+|[饒秉才方案](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E8%AF%9D%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)* |cêu|zêng|yud|fa|《廣州音字典》等大陸著作|
 
 *呢個方案太過不規則，用埋哂啲奇怪符號，所以冇辦法整成補丁。
 
