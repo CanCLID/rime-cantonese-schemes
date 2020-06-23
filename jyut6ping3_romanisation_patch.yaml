@@ -6,7 +6,7 @@
 # 長遠請考慮使用粵拼
 yale:
   speller/algebra/@before 0:
-    derive/([aeiou])(ng?|m|i|u|p|t|k)?([456])/$1h$2/         # 粵 jyut -> yuht （陽聲）
+    derive/([aeiou]+)(ng?|m|p|t|k)?([456])/$1h$2/         # 粵 jyut -> yuht （陽聲）
   speller/algebra/+/+:
     - derive/eo(t|n|i)/eu$1/                                 # 信 seon  -> seun
     - derive/oe/eu/                                          # 上 soeng -> seung
