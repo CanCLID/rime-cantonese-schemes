@@ -6,18 +6,16 @@
 
 patch:
   speller/algebra/+:
-    - derive/eoi$/oey/            # 水 seoi -> soey
-    - derive/eo/oe/               # 出 ceot -> coet
-    - derive/yu/y/                # 孫 syun -> syn
-    - derive/^z/dz/               # 將 zoeng-> dzoeng
-    - derive/^c/ts/               # 長 coeng-> tsoeng
+    # 原方案已包含部分教院兼容規則
+    - derive/^z/dz/                                  # 將 zoeng -> dzoeng
+    - derive/^c/ts/                                  # 長 coeng -> tsoeng
   translator/preedit_format:
-    - xform/([aeioumng])vv/$1⁴/
-    - xform/([aeioumng])xx/$1⁵/
-    - xform/([aeioumng])qq/$1⁶/
-    - xform/([aeioumng])v/$1¹/
-    - xform/([aeioumng])x/$1²/
-    - xform/([aeioumng])q/$1³/
-    - xform/([ptk])v/$1⁷/       # 入聲作789，不作136
-    - xform/([ptk])q/$1⁸/
+    - xform/([aeiouymngptk])vv/$1⁴/
+    - xform/([aeiouymngptk])xx/$1⁵/
+    - xform/([aeiouymng])qq/$1⁶/
+    - xform/([aeiouymng])v/$1¹/
+    - xform/([aeiouymngptk])x/$1²/
+    - xform/([aeiouymng])q/$1³/
     - xform/([ptk])qq/$1⁹/
+    - xform/([ptk])q/$1⁸/
+    - xform/([ptk])v/$1⁷/

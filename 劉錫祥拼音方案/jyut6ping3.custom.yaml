@@ -6,14 +6,11 @@
 
 patch:
   speller/algebra/+:
-    - derive/^c/ch/               # 叉 caa  -> cha
-    - derive/^j/y/                # 用 jung -> yung
-    - derive/^z/j/                # 抓 zaa  -> ja
-    - derive/o$/oh/               # 科 fo   -> foh
-    - derive/u([int])/oo$1/       # 歡 fun  -> foon
-    - derive/([^aeiouy])u$/$1oo/  # 虎 fu   -> foo
-    - derive/oe$/euh/             # 靴 hoe  -> heuh
-    - derive/oe/eu/               # 想 soeng-> seung
-    - derive/eo/u/                # 出 ceot -> chut
-    - derive/yu/ue/               # 孫 syun -> suen
-    - derive/aa$/a/               # 煆 haa  -> ha
+    - derive/(oe?)(vv?|xx?|qq?)?$/$1h$2/             # 科 fo    -> foh
+    - xform/u(?!ng|k)/oo/                            # 歡 fun   -> foon
+    - derive/oe/eu/                                  # 想 soeng -> seung
+    - derive/eo/u/                                   # 出 ceot  -> chut
+    - derive/yu(?!ng|k)/ue/                          # 孫 syun  -> suen
+    - erase/j.*/                                     # 刪除原有 j 聲母，以免混淆
+    - derive/^z/j/                                   # 渣 zaa   -> ja
+    - derive/^c/ch/                                  # 叉 caa   -> cha

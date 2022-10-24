@@ -7,12 +7,11 @@
 
 patch:
   speller/algebra/@before 0:
-    derive/([aeiou]+)(ng?|m|p|t|k)?([456])/$1h$2/            # 粵 jyut  -> yuht （陽聲）
+    derive/([aeiou]+)(ng?|m|p|t|k)?([456])/$1h$2/    # 粵 jyut  -> yuht （陽聲）
+  speller/algebra/@before 1:
+    derive/^(m|ng)([456])/$1h$2/                     # 五 ng    -> ngh  （陽聲）
   speller/algebra/+:
-    - derive/eo(t|n|i)/eu$1/                                 # 信 seon  -> seun
-    - derive/oe/eu/                                          # 上 soeng -> seung
-    - derive/^jy/y/                                          # 粵 jyut  -> yut
-    - derive/^j/y/                                           # 用 jung  -> yung
-    - derive/^z/j/                                           # 抓 zaa   -> ja
-    - derive/^c/ch/                                          # 叉 caa   -> cha
-    - derive/aa$/a/                                          # 煆 haa   -> ha
+    - derive/oe|eo/eu/                               # 信 seon -> seun
+    - erase/j.*/                                     # 刪除原有 j 聲母，以免混淆
+    - derive/^z/j/                                   # 渣 zaa  -> ja
+    - derive/^c/ch/                                  # 叉 caa  -> cha
