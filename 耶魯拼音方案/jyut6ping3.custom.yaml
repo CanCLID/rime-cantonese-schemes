@@ -1,17 +1,35 @@
 # Yale Romanisation Patch
 # Author:
-#    - 幸延 <a0726h77@gmail.com> （本補丁由rime/rime-jyutping/yale.schema.yaml 改編而來）
+#    - 幸延 <a0726h77@gmail.com> （本補丁由 rime/rime-jyutping/yale.schema.yaml 改編而來）
 #    - 亶父 <tanxpyox@gmail.com>
 # 只供從耶魯拼音過渡至粵拼人士使用
 # 長遠請考慮使用粵拼
 
 patch:
-  speller/algebra/@before 0:
-    derive/([aeiou]+)(ng?|m|p|t|k)?([456])/$1h$2/    # 粵 jyut  -> yuht （陽聲）
-  speller/algebra/@before 1:
-    derive/^(m|ng)([456])/$1h$2/                     # 五 ng    -> ngh  （陽聲）
+  schema/name: 粵語拼音（耶魯拼音版）
   speller/algebra/+:
     - derive/oe|eo/eu/                               # 信 seon -> seun
     - erase/j.*/                                     # 刪除原有 j 聲母，以免混淆
     - derive/^z/j/                                   # 渣 zaa  -> ja
     - derive/^c/ch/                                  # 叉 caa  -> cha
+  translator/preedit_format/+:
+    - xform/^.*$/\U$&\E\t（$&）/
+
+    - xform/j/z/
+    - xform/ch/c/
+    - xform/([^ '（a])a(?=[ '）])|aa?(?=[1-6])/$1aa/
+    - xform/([ '（])[jy]u(?!ng|k)/$1jyu/
+    - xform/([ '（])y(?=[ '）])/$1j/
+    - xform/([ '（])(yu?)(?=(n|t)?[1-6 '）])/$1jyu/
+    - xform/([ '（])y/$1j/
+    - xform/(oe|eo|eu)y(?=[1-6 '）])/eoi/
+    - xform/yu?/yu/
+    - xform/(oe|eu)(?=[int][1-6 '）])/eo/
+    - xform/(eo|eu)(?=(ng|k)?[1-6 '）])/oe/
+    - xform/([ '（qh])eot/$1oet/
+    - xform/(g|k)wu/$1u/
+
+    - xform/q(?=[aeiou])//
+    - xform/[A-Z]/\L$&\E/
+    - xform/^(.*)\t（\1?）$/$1/
+    - xform/q/ʔ/

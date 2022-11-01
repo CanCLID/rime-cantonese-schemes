@@ -1,0 +1,146 @@
+# Adaptive Schema Patch
+# Author:
+#    - 形素叢集 <graphemecluster@gmail.com>
+# 只供未學習拼音／學習其他拼音方案人士以學習粵拼為目的使用
+# 長遠請考慮使用粵拼
+
+patch:
+  schema:
+    name: 粵語拼音（兼容拼音版）
+    dependencies: []
+  engine:
+    processors:
+      - ascii_composer
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - fallback_segmentor
+    translators:
+      - punct_translator
+      - script_translator
+    filters:
+      - simplifier@variants_hk
+      - simplifier@trad_tw
+      - simplifier
+      - simplifier@emoji_suggestion
+      - uniquifier
+  speller/algebra:
+    - derive/^ng(?=[aeiou])//
+    - derive/^(?=[aeiou])/ng/
+    - derive/^n(?!g)/l/
+    - derive/^(g|k)w/$1/
+    - derive/^ng(?=\d)/m/
+
+    - derive/yu/ue/
+    - derive/j?yu(?!ng|k)/y/
+    - xform/jy?u/yu/
+    - xform/jyu/yue/
+    - xform/j/y/
+    - abbrev/^([a-z]).+$/$1/
+
+    - derive/([zcs])yu(?=\d)/$1u/
+    - derive/f(?!u(i|ng|k))/hw/
+    - derive/([gkh])u(?!ng|k)/$1wu/
+    - derive/([gkh])w(?!u)/$1u/
+    - derive/(^|[^aeiou])i(?=[umnptk]|ng|\d)/$1ii/
+    - derive/(^|[^aeiou])i(?=[umnptk]|ng|\d)/$1ee/
+    - derive/(^|[^aeiouy])u(?=[imnptk]|ng|\d)/$1uu/
+    - derive/(^|[^aeiouy])u(?=[imnptk]|ng|\d)/$1oo/
+    - derive/yu(?=ng|k)/yuu/
+    - derive/yu(?=ng|k)/yoo/
+    - derive/aa/r/
+    - derive/aa(?=\d)/a/
+    - derive/aau/ao/
+    - derive/eo/u/
+    - derive/eo/oe/
+    - derive/[aeor](?=\d)/$&h/
+    - derive/oe/eo/
+    - derive/ou/oou/
+    - derive/ei/eei/
+    - derive/^u(?=ng|k)/wu/
+    - derive/([aeour])i(?=\d)/$1y/
+    - derive/([aeior])u(?=\d)/$1w/
+    - derive/oe/eu/
+    - derive/oe/v/
+    - derive/eoi/eue/
+    - derive/p(?=\d)/b/
+    - derive/t(?=\d)/d/
+    - derive/k(?=\d)/g/
+    - derive/zyu/ju/
+    - derive/cyu/qu/
+    - derive/syu/xu/
+    - derive/z/j/
+    - derive/c/q/
+    - derive/s/x/
+    - derive/[zcs]/$&h/
+    - derive/yi/i/
+    - derive/wu/u/
+    - derive/z/dz/
+    - derive/c/ts/
+    - abbrev/^([gkh][wu]|[zcs]h|dz|ts|ng).+$/$1/
+
+    - derive/\d//
+    - xform/1/v/
+    - xform/4/vv/
+    - xform/2/x/
+    - xform/5/xx/
+    - xform/3/q/
+    - xform/6/qq/
+  translator/preedit_format:
+    - xform/([aeiouyrv]([mnptkh]|ng)?|m|ng)vv(?=[ ']|$)/${1}4/
+    - xform/([aeiouyrv]([mnptkh]|ng)?|m|ng)xx(?=[ ']|$)/${1}5/
+    - xform/([aeiouyrv]([mnptkh]|ng)?|m|ng)qq(?=[ ']|$)/${1}6/
+    - xform/([aeiouyrv]([mnptkh]|ng)?|m|ng)v(?=[ ']|$)/${1}1/
+    - xform/([aeiouyrv]([mnptkh]|ng)?|m|ng)x(?=[ ']|$)/${1}2/
+    - xform/([aeiouyrv]([mnptkh]|ng)?|m|ng)q(?=[ ']|$)/${1}3/
+
+    - xform/^.*$/\U$&\E\t（$&）/
+
+    - xform/([zcs])h/$1/
+    - xform/dz/z/
+    - xform/ts/c/
+    - xform/([dtnlzcs])u(?=[iynt][1-6 '）])/$1eo/
+    - xform/(h|y)u(?=[iy][1-6 '）])/$1eo/
+    - xlit/jqx/zcs/
+    - xform/([zcs])u(?!e|ng|k)/$1yu/
+    - xform/r|([^ '（a])a(?=[ '）])|aa?(?=[1-6])/$1aa/
+    - xform/eue/eoi/
+    - xform/eei/ei/
+    - xform/oou/ou/
+    - xform/ii|ee/i/
+    - xform/uu|oo/u/
+    - xform/([ '（])yu(?!ng|k)e?/$1jyu/
+    - xform/([ '（])y(?=[ '）])/$1j/
+    - xform/([ '（])(yu?|ue)(?=(n|t)?[1-6 '）])/$1jyu/
+    - xform/([ '（])y/$1j/
+    - xform/([^aeouv])yu?/$1yu/
+    - xform/ue/yu/
+    - xform/ue(?=(n|t)?[1-6 '）])/yu/
+    - xform/([aeiou])b(?=[1-6 '）])/$1p/
+    - xform/([aeiou])d(?=[1-6 '）])/$1t/
+    - xform/([aeiou])g(?=[1-6 '）])/$1k/
+    - xform/([aeo])h/$1/
+    - xform/(oe|eu|v)(?=[iynt][1-6 '）])/eo/
+    - xform/(eo|eu|v)(?=(ng|k)?[1-6 '）])/oe/
+    - xform/([ '（h])eot/$1oet/
+    - xform/([aeou])y(?=[1-6 '）])/$1i/
+    - xform/([aeio])w(?=[1-6 '）])/$1u/
+    - xform/wu(?=ng|k)/u/
+    - xform/([ '（])u(?!ng|k)/$1wu/
+    - xform/([ '（])i/$1ji/
+    - xform/ao/aau/
+    - xform/([gkh])wu/$1u/
+    - xform/([gkh])u(?=a|o)/$1w/
+    - xform/hu(?!i|ng|k)/fu/
+    - xform/hw/f/
+
+    - xform/[A-Z]/\L$&\E/
+    - xform/^(.*)\t（\1?）$/$1/

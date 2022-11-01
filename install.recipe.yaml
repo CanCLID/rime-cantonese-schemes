@@ -12,6 +12,7 @@ recipe:
       - Cantonese Pinyin (by Rev. Yu Ping Chiu) ("edu")
       - SL Wong ("wong")
       - Sidney Lau ("lau")
+      - Adaptive ("max")
 install_files: >-
    jyut6ping3_romanisation_patch.yaml
 patch_files:

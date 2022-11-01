@@ -14,6 +14,7 @@ bash rime-install canclid/rime-cantonese-schemes:install:scheme=yale
 | 教院       | `edu`       |
 | 黃錫凌       | `wong`       |
 | 劉錫祥       | `lau`       |
+| 兼容拼音     | `max`       |
 
 ### 又或者以下載覆蓋方式安裝指令：（註：其他補丁可能因此而被覆蓋）
 1. [下載呢個程式庫](https://github.com/canclid/rime-cantonese-schemes/archive/master.zip)，然後解壓縮。

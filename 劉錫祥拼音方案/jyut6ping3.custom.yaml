@@ -5,12 +5,47 @@
 # 長遠請考慮使用粵拼
 
 patch:
+  schema/name: 粵語拼音（劉錫祥拼音版）
   speller/algebra/+:
-    - derive/(oe?)(vv?|xx?|qq?)?$/$1h$2/             # 科 fo    -> foh
-    - xform/u(?!ng|k)/oo/                            # 歡 fun   -> foon
+    - derive/(oe?)(?=(vv?|xx?|qq?)?$)/$1h/           # 科 fo    -> foh
+    - erase/yun(vv?|xx?|qq?)?/                       # 閏 jeon  -> yun
+    - xform/([^aeioy])u(?!ng|k)/$1oo/                # 歡 fun   -> foon
     - derive/oe/eu/                                  # 想 soeng -> seung
-    - derive/eo/u/                                   # 出 ceot  -> chut
-    - derive/yu(?!ng|k)/ue/                          # 孫 syun  -> suen
+    - derive/([^qh])eo(?=[int](vv?|xx?|qq?)?$)/$1u/  # 出 ceot  -> chut
+    - derive/(.)yu(?!ng|k)/$1ue/                     # 孫 syun  -> suen
+    - derive/jyu/yue/                                # 粵 jyut  -> yuet
     - erase/j.*/                                     # 刪除原有 j 聲母，以免混淆
     - derive/^z/j/                                   # 渣 zaa   -> ja
     - derive/^c/ch/                                  # 叉 caa   -> cha
+  translator/preedit_format:
+    - xform/([aeiouymngptkh])vv/${1}4/
+    - xform/([aeiouymngptkh])xx/${1}5/
+    - xform/([aeiouymngptkh])qq/${1}6/
+    - xform/([aeiouymngptkh])v/${1}1/
+    - xform/([aeiouymngptkh])x/${1}2/
+    - xform/([aeiouymngptkh])q/${1}3/
+
+    - xform/^.*$/\U$&\E\t（$&）/
+
+    - xform/j/z/
+    - xform/ch/c/
+    - xform/([^ '（a])a(?=[ '）])|aa?(?=[1-6])/$1aa/
+    - xform/yun(?=[1-6 '）])/jeon/
+    - xform/([ '（])[jy]u(?!ng|k)e?/$1jyu/
+    - xform/([ '（])y(?=[ '）])/$1j/
+    - xform/([ '（])(yu?|ue)(n|t)?(?=[1-6 '）])/$1jyu$3/
+    - xform/([ '（])y/$1j/
+    - xform/(oe|eo|eu)y(?=[1-6 '）])/eoi/
+    - xform/yu?|ue/yu/
+    - xform/(oe|eu)(?=[int][1-6 '）])/eo/
+    - xform/(eo|eu)(?=(ng|k)?[1-6 '）])/oe/
+    - xform/([ '（qh])eot/$1oet/
+    - xform/([^aeioy])u(?=[int][1-6 '）])/$1eo/
+    - xform/oo/u/
+    - xform/(g|k)wu/$1u/
+    - xform/(oe?)h/$1/
+
+    - xform/q(?=[aeiou])//
+    - xform/[A-Z]/\L$&\E/
+    - xform/^(.*)\t（\1?）$/$1/
+    - xform/q/ʔ/
